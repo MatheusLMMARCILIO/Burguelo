@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+.menu-top ul {
+    width: 100%;
+}
+
+.menu-top li {
+    width: 100%;
+}
+
+.menu-top ul,
+li {
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-top a {
+    font-size: 18px;
+    font-family: 'oswald', sans-serif;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-top a:hover:first-child {
+    color: #ffc139;
+    transition: color 0.3s;
+}
+
+.menu-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.LINKS ul {
+    display: flex;
+
+}
+
+.LINKS li {
+    padding: 10px;
+}
+
+
+
+.link-icons ul {
+    display: flex;
+}
+
+.LINKS a {
+    color: black;
+    font-size: 12px;
+    font-family: 'oswald', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+.LINKS a:hover {
+    color: #ffc139;
+    transition: color 0.2s;
+
+}
+
+.link-icons li:hover {
+    fill: #ffc139;
+}
+
+
+
+.food-delivry {
+    height: 700px;
+    background-image: url(img/banner-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.food-delivry h3 {
+    font-size: 64px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 12.8px;
+    padding-left: 480px;
+    margin-top: -80px;
+}
+
+.food-delivry img {
+    padding-left: 400px;
+    padding-top: 150px;
+}
+
+.food-delivry p {
+    font-size: 14px;
+    font-family: 'montserrat' , sans-serif;
+     color: white;
+    padding-left: 480px;
+    margin-top: -58px;
+}
+
+.food-delivry button {
+    width: 180px;
+    height: 43px;
+    background-color: #ffc139;
+    border-radius: 50px;
+    border: 1px solid #ffc139;
+    font-family: 'Montserrat' ,sans-serif  ;
+    font-weight: 500;
+}
+
+.food-delivry a {
+    padding-left: 480px;
+}
+
+.food-delivry button:hover {
+    background-color: white;
+    color: #ffc139;
+    border: none;
+}
+.banner-2 {
+    display: flex;
+    padding-top: 68px;
+    padding-left: 80px;    
+}
+
+.btn-pizza-pt2 {
+    display: flex;
+}
+
+.banner-pizza-left {
+    padding-left: 250px;
+    padding-top:68px ;
+}
+
+
+.banner-pizza-rigth {
+    padding-left: 50px;
+    padding-top: 150px ;
+}
+
+.banner-pizza-rigth h2 {
+font-size: 48px;
+font-family: 'oswald' , sans-serif;
+color: black;
+line-height: 1.5;
+font-weight: 400;
+letter-spacing: 4.8px;
+}
+
+.banner-pizza-rigth p {
+    font-size: 14px;
+    font-family: 'montserrat' , sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.41px;
+    line-height: 2.1em;
+    color: black;
+    text-align: justify;
+}
+
+
+.btn-pizza p {
+font-family: ' Oswald ' , sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 0.1em;
+letter-spacing: 1.3px;
+text-transform: uppercase;
+}
+
+.btn-pizza img {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.container-btn-pizza {
+    display: flex;
+    
+
+}
+
+.menu-burguer-pasta {
+    padding-top: 100px;
+    padding-left: 140px;
+}
